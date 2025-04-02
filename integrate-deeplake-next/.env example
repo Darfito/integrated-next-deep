@@ -1,0 +1,16 @@
+# Kill Bill Configuration
+KILLBILL_URL=http://localhost:8080
+KILLBILL_API_KEY=visonx
+KILLBILL_API_SECRET=aim
+KILLBILL_USERNAME=admin
+KILLBILL_PASSWORD=password
+
+# Midtrans Configuration
+NEXT_PUBLIC_CLIENT_MID=xxxxxx
+SECRET_MID=xxxxx
+MID_IS_PRODUCTION=false
+
+NEXT_PUBLIC_SUPABASE_URL=xxxxx
+NEXT_PUBLIC_SUPABASE_ANON_KEY=xxxx
+
+NEXT_PUBLIC_BASE_URL=http://localhost:3000
