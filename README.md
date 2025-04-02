@@ -26,10 +26,8 @@ integrate-deeplake-next
 └── src
     └── app
         ├── api
-        │   ├── midtrans
-        │   │   └── routeMidtrans.ts   (Contoh nama file)
         │   ├── killbill
-        │   │   └── routeKillbill.ts   (Contoh nama file)
+        │   │   └── route.ts   (Contoh nama file)
         │   └── ... (route API lainnya)
         ├── fonts
         ├── lib
@@ -53,8 +51,7 @@ integrate-deeplake-next
 1. api/
    - Berisi route API untuk komunikasi dengan Midtrans dan Kill Bill.
    - Contoh:
-     • routeMidtrans.ts (menerima permintaan transaksi, menangani callback dll.)
-     • routeKillbill.ts (membuat/mengelola tagihan, subscription, dsb. di Kill Bill)
+     • route.ts (membuat/mengelola tagihan, subscription, dsb. di Kill Bill)
 
 2. fonts/
    - Folder opsional untuk menyimpan berkas font khusus.
