@@ -9,7 +9,15 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@mui/icons-material": "^7.0.1",
+    "@mui/material": "^7.0.1",
+    "@supabase/ssr": "^0.6.1",
+    "@supabase/supabase-js": "^2.49.4",
     "@types/uuid": "^10.0.0",
+    "axios": "^1.8.4",
+    "midtrans-node": "^1.1.5",
     "next": "14.2.24",
     "react": "^18",
     "react-dom": "^18",
